@@ -24,7 +24,7 @@ for i in ip:
     # Look for the response
     amount_received = 0
     amount_expected = len(image_bytes)
-    received_image = 'alpine-' + str(num) + '.png'
+    received_image = 'if-' 'alpine-' + str(num) + '.png'
     num+=1
     with open(received_image, 'wb') as file:
         while amount_received < amount_expected:
