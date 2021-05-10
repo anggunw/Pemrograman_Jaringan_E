@@ -15,5 +15,5 @@ while True:
     angka = angka+1
     msg = " BROADCAST ini angka {} " . format(angka)
     print(msg)
-    sock.sendto(msg.encode(), ("255.255.255.255", TARGET_PORT))
+    sock.sendto(msg.encode(), ("192.168.122.0", TARGET_PORT))
 #    time.sleep(1)
